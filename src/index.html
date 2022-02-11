@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <script src="./js/jquery.js"></script>
+    <script src="./js/lunbo.js"></script>
+    <script src="./js/pendant.js"></script>
+    <script>
+        $(function () {
+            $('.lunbo_t').slider({
+                speed: 600, // 动画速度
+                delay: 2000 // 间隔时间
+            });
+            $('.lunbo_b').slider({
+                speed: 600, // 动画速度
+                delay: 2000 // 间隔时间
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <ul class="n_left">
+                    <li>
+                        <div>
+                            <span>中国大陆</span>
+                            <span><i class="iconfont jian">&#xe626;</i></span>
+                        </div>
+                        <ul class="area">
+                            <li>中国大陆</li>
+                            <li>中国大陆</li>
+                            <li>中国大陆</li>
+                            <li>中国大陆</li>
+                            <li>中国大陆</li>
+                            <li>中国大陆</li>
+                            <li>中国大陆</li>
+                            <li>中国大陆</li>
+                            <li>中国大陆</li>
+                            <li>中国大陆</li>
+                            <li>中国大陆</li>
+                        </ul>
+                    </li>
+                    <li>亲，请登录</li>
+                    <li>免费注册</li>
+                    <li>手机逛淘宝</li>
+                    <li>网页无障碍</li>
+                </ul>
+                <ul class="n_right">
+                    <li>
+                        <div>
+                            <span>我的淘宝</span>
+                            <span><i class="iconfont jian">&#xe626;</i></span>
+                        </div>
+                        <ul class="mytaobao">
+                            <li>已买到的宝贝</li>
+                            <li>我的足迹</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <span><i class="iconfont shoppingcart">&#xe600;</i></span>
+                        <span>购物车</span>
+                    </li>
+                    <li>
+                        <div>
+                            <span><i class="iconfont collect">&#xe629;</i></span>
+                            <span>收藏夹</span>
+                            <span><i class="iconfont jian">&#xe626;</i></span>
+                        </div>
+                        <ul class="collection">
+                            <li>收藏的宝贝</li>
+                            <li>收藏的店铺</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div>商品分类</div>
+                    </li>
+                    <li>
+                        <div>免费开店</div>
+                    </li>
+                    <li>|</li>
+                    <li>
+                        <div>
+                            <span>千牛卖家中心</span>
+                            <span><i class="iconfont jian">&#xe626;</i></span>
+                        </div>
+                        <ul class="seller_list">
+                            <li>已卖出的宝贝</li>
+                            <li>已卖出的宝贝</li>
+                            <li>已卖出的宝贝</li>
+                            <li>已卖出的宝贝</li>
+                            <li>已卖出的宝贝</li>
+                            <li>已卖出的宝贝</li>
+                            <li>已卖出的宝贝</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div>
+                            <span>联系客服</span>
+                            <span><i class="iconfont jian">&#xe626;</i></span>
+                        </div>
+                        <ul class="customer_service">
+                            <li>消费者客服</li>
+                            <li>卖家客服</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="search">
+            <span><img src="./img/logo.png"></span>
+            <div>
+                <div class="box">
+                    <div class="tip">
+                        <div class="baobei">
+                            <span>宝贝</span>
+                            <span><i class="iconfont jian">&#xe626;</i></span>
+                        </div>
+                        <ul>
+                            <li>天猫</li>
+                            <li>店铺</li>
+                        </ul>
+                    </div>
+                    <input type="text" class="iconfont ser" placeholder="&#xe66b; 小白鞋">
+                    <button>搜索</button>
+
+                </div>
+                <div>
+                    <ul class="tip1">
+                        <li><a href="">新款连衣裙</a></li>
+                        <li><a href="">四件套</a></li>
+                        <li><a href="">潮流T恤</a></li>
+                        <li><a href="">时尚女鞋</a></li>
+                        <li><a href="">短裤</a></li>
+                        <li><a href="">半身裙</a></li>
+                        <li><a href="">男士外套</a></li>
+                        <li><a href="">墙纸</a></li>
+                        <li><a href="">行车记录仪</a></li>
+                        <li><a href="">新款男鞋</a></li>
+                        <li><a href="">耳机</a></li>
+                        <li><a href="">时尚女包</a></li>
+                        <li><a href="">沙发</a></li>
+                    </ul>
+                </div>
+            </div>
+            <span>
+                <p>下载淘宝</p><img src="./img/erweima.png">
+            </span>
+        </div>
+        <div id="search1">
+            <span><img src="./img/logo.png"></span>
+            <div class="box">
+                <div class="tip">
+                    <div class="baobei">
+                        <span>宝贝</span>
+                        <span><i class="iconfont jian">&#xe626;</i></span>
+                    </div>
+                    <ul>
+                        <li>天猫</li>
+                        <li>店铺</li>
+                    </ul>
+                </div>
+                <input type="text" class="iconfont ser" placeholder="&#xe66b; 小白鞋">
+                <button>搜索</button>
+
+            </div>
+            <div></div>
+        </div>
+    </header>
+    <main>
+        <div id="category">
+            <ul>
+                <li>主题市场</li>
+                <li>天猫</li>
+                <li>聚划算</li>
+                <li>天猫超市</li>
+                <li>|</li>
+                <li>司法拍卖</li>
+                <li>飞猪旅行</li>
+                <li>天天特卖</li>
+                <li>|</li>
+                <li>造点新货</li>
+                <li>苏宁易购</li>
+                <li>淘宝心选</li>
+                <li>智能生活</li>
+                <li>淘宝直播</li>
+            </ul>
+            <section>
+                <div class="left">
+                    <ul>
+                        <li>
+                            <ul class="row">
+                                <li><span><i class="iconfont theme">&#xe60f;</i></span></li>
+                                <li>女装</li>
+                                <li>/</li>
+                                <li>内衣</li>
+                                <li>/</li>
+                                <li>家居</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="row">
+                                <li><span><i class="iconfont theme">&#xe60f;</i></span></li>
+                                <li>女装</li>
+                                <li>/</li>
+                                <li>内衣</li>
+                                <li>/</li>
+                                <li>家居</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="row">
+                                <li><span><i class="iconfont theme">&#xe60f;</i></span></li>
+                                <li>女装</li>
+                                <li>/</li>
+                                <li>内衣</li>
+                                <li>/</li>
+                                <li>家居</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="row">
+                                <li><span><i class="iconfont theme">&#xe60f;</i></span></li>
+                                <li>女装</li>
+                                <li>/</li>
+                                <li>内衣</li>
+                                <li>/</li>
+                                <li>家居</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="row">
+                                <li><span><i class="iconfont theme">&#xe60f;</i></span></li>
+                                <li>女装</li>
+                                <li>/</li>
+                                <li>内衣</li>
+                                <li>/</li>
+                                <li>家居</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="row">
+                                <li><span><i class="iconfont theme">&#xe60f;</i></span></li>
+                                <li>女装</li>
+                                <li>/</li>
+                                <li>内衣</li>
+                                <li>/</li>
+                                <li>家居</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="row">
+                                <li><span><i class="iconfont theme">&#xe60f;</i></span></li>
+                                <li>女装</li>
+                                <li>/</li>
+                                <li>内衣</li>
+                                <li>/</li>
+                                <li>家居</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="row">
+                                <li><span><i class="iconfont theme">&#xe60f;</i></span></li>
+                                <li>女装</li>
+                                <li>/</li>
+                                <li>内衣</li>
+                                <li>/</li>
+                                <li>家居</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="row">
+                                <li><span><i class="iconfont theme">&#xe60f;</i></span></li>
+                                <li>女装</li>
+                                <li>/</li>
+                                <li>内衣</li>
+                                <li>/</li>
+                                <li>家居</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="row">
+                                <li><span><i class="iconfont theme">&#xe60f;</i></span></li>
+                                <li>女装</li>
+                                <li>/</li>
+                                <li>内衣</li>
+                                <li>/</li>
+                                <li>家居</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="row">
+                                <li><span><i class="iconfont theme">&#xe60f;</i></span></li>
+                                <li>女装</li>
+                                <li>/</li>
+                                <li>内衣</li>
+                                <li>/</li>
+                                <li>家居</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="row">
+                                <li><span><i class="iconfont theme">&#xe60f;</i></span></li>
+                                <li>女装</li>
+                                <li>/</li>
+                                <li>内衣</li>
+                                <li>/</li>
+                                <li>家居</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="row">
+                                <li><span><i class="iconfont theme">&#xe60f;</i></span></li>
+                                <li>女装</li>
+                                <li>/</li>
+                                <li>内衣</li>
+                                <li>/</li>
+                                <li>家居</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="row">
+                                <li><span><i class="iconfont theme">&#xe60f;</i></span></li>
+                                <li>女装</li>
+                                <li>/</li>
+                                <li>内衣</li>
+                                <li>/</li>
+                                <li>家居</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="row">
+                                <li><span><i class="iconfont theme">&#xe60f;</i></span></li>
+                                <li>女装</li>
+                                <li>/</li>
+                                <li>内衣</li>
+                                <li>/</li>
+                                <li>家居</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mid">
+                    <div class="lunbo_t">
+                        <div class="img_list">
+                            <img src="./img/lunbo.jpg" alt="">
+                            <img src="./img/lunbo1.jpg" alt="">
+                            <img src="./img/lunbo2.jpg" alt="">
+                            <img src="./img/lunbo3.jpg" alt="">
+                            <img src="./img/lunbo4.jpg" alt="">
+                            <img src="./img/lunbo5.jpg" alt="">
+                        </div>
+                        <span>&lt</span>
+                        <span>&gt</span>
+
+                    </div>
+                    <div class="tip2">
+                        <img src="./img/logo1.png">
+                        <span>理想生活上天猫</span>
+                        <span>/5</span>
+                    </div>
+                    <div class="lunbo_b">
+                        <div class="img_list">
+                            <div><img src="./img/lunbo6.jpg" alt=""><img src="./img/lunbo7.jpg" alt=""></div>
+                            <div><img src="./img/lunbo8.jpg" alt=""><img src="./img/lunbo9.jpg" alt=""></div>
+                            <div><img src="./img/lunbo10.jpg" alt=""><img src="./img/lunbo11.jpg" alt=""></div>
+                            <div><img src="./img/lunbo12.jpg" alt=""><img src="./img/lunbo13.jpg" alt=""></div>
+                            <div><img src="./img/lunbo14.jpg" alt=""><img src="./img/lunbo15.jpg" alt=""></div>
+                        </div>
+                        <span>&lt</span>
+                        <span>&gt</span>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="in">
+                        <div class="touxiang">
+                            <div><img src="./img/touxiang.jpg"></div>
+                            <span>Hi!</span>
+                            <strong>你好</strong>
+                        </div>
+                        <div class="member">
+                            <a href="">登录</a>
+                            <a href="">注册</a>
+                            <a href="">开店</a>
+                        </div>
+                        <img src="./img/guanggao.png">
+                        <div class="tip3">
+                            <p>
+                                <span>公告</span>
+                                <span>新鲜事儿都在这里~</span>
+                            </p>
+                            <p><span>规则</span><span>奥运知识产权规则解读</span></p>
+                            <p><span>热点</span><span>关于推进“清朗”账号乱象专项整治的通知</span></p>
+                            <p><span>热点</span><span>淘宝平台打击流量造假、黑公关、网络水军公告</span></p>
+                        </div>
+                        <div class="tarbar">
+                            <div class="item">
+                                <span><i class="iconfont item-icon">&#xe629;</i></span>
+                                <p>收藏的宝贝</p>
+                            </div>
+                            <div class="item">
+                                <span><i class="iconfont item-icon">&#xe629;</i></span>
+                                <p>收藏的宝贝</p>
+                            </div>
+                            <div class="item">
+                                <span><i class="iconfont item-icon">&#xe629;</i></span>
+                                <p>收藏的宝贝</p>
+                            </div>
+                            <div class="item">
+                                <span><i class="iconfont item-icon">&#xe629;</i></span>
+                                <p>收藏的宝贝</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+        </div>
+        <div id="recommend">
+            <div class="tip4">
+                <span>有好货</span>
+                <img src="./img/youhaohuo.png" alt="">
+            </div>
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="mask"></div>
+                        <img src="./img/fz.jpg_.webp" alt="">
+                        <h4> 时光恋人平底马丁靴</h4>
+                        <p>众多马丁靴中，这款不一样的是英伦的风格，能很好的体现出女生帅气的一面，百搭性也是超赞的。</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="mask"></div>
+                        <img src="./img/fz.jpg_.webp" alt="">
+                        <h4> 时光恋人平底马丁靴</h4>
+                        <p>众多马丁靴中，这款不一样的是英伦的风格，能很好的体现出女生帅气的一面，百搭性也是超赞的。</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="mask"></div>
+                        <img src="./img/fz.jpg_.webp" alt="">
+                        <h4> 时光恋人平底马丁靴</h4>
+                        <p>众多马丁靴中，这款不一样的是英伦的风格，能很好的体现出女生帅气的一面，百搭性也是超赞的。</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="mask"></div>
+                        <img src="./img/fz.jpg_.webp" alt="">
+                        <h4> 时光恋人平底马丁靴</h4>
+                        <p>众多马丁靴中，这款不一样的是英伦的风格，能很好的体现出女生帅气的一面，百搭性也是超赞的。</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="mask"></div>
+                        <img src="./img/fz.jpg_.webp" alt="">
+                        <h4> 时光恋人平底马丁靴</h4>
+                        <p>众多马丁靴中，这款不一样的是英伦的风格，能很好的体现出女生帅气的一面，百搭性也是超赞的。</p>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <div id="like">
+            <div class="tip4">
+                <span>猜你喜欢</span>
+                <img src="./img/gexing.png" alt="">
+            </div>
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="mask"></div>
+                        <img src="./img/like.jpg_.webp" alt="">
+                        <p>心相印纸巾抽纸整箱大包家用实惠装卫生纸心心相印餐巾纸面巾纸抽</p>
+                        <div><span><span>￥</span>9.9</span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="mask"></div>
+                        <img src="./img/like.jpg_.webp" alt="">
+                        <p>心相印纸巾抽纸整箱大包家用实惠装卫生纸心心相印餐巾纸面巾纸抽</p>
+                        <div><span><span>￥</span>9.9</span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="mask"></div>
+                        <img src="./img/like.jpg_.webp" alt="">
+                        <p>心相印纸巾抽纸整箱大包家用实惠装卫生纸心心相印餐巾纸面巾纸抽</p>
+                        <div><span><span>￥</span>9.9</span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="mask"></div>
+                        <img src="./img/like.jpg_.webp" alt="">
+                        <p>心相印纸巾抽纸整箱大包家用实惠装卫生纸心心相印餐巾纸面巾纸抽</p>
+                        <div><span><span>￥</span>9.9</span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="mask"></div>
+                        <img src="./img/like.jpg_.webp" alt="">
+                        <p>心相印纸巾抽纸整箱大包家用实惠装卫生纸心心相印餐巾纸面巾纸抽</p>
+                        <div><span><span>￥</span>9.9</span></div>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="mask"></div>
+                        <img src="./img/like.jpg_.webp" alt="">
+                        <p>心相印纸巾抽纸整箱大包家用实惠装卫生纸心心相印餐巾纸面巾纸抽</p>
+                        <div><span><span>￥</span>9.9</span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="mask"></div>
+                        <img src="./img/like.jpg_.webp" alt="">
+                        <p>心相印纸巾抽纸整箱大包家用实惠装卫生纸心心相印餐巾纸面巾纸抽</p>
+                        <div><span><span>￥</span>9.9</span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="mask"></div>
+                        <img src="./img/like.jpg_.webp" alt="">
+                        <p>心相印纸巾抽纸整箱大包家用实惠装卫生纸心心相印餐巾纸面巾纸抽</p>
+                        <div><span><span>￥</span>9.9</span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="mask"></div>
+                        <img src="./img/like.jpg_.webp" alt="">
+                        <p>心相印纸巾抽纸整箱大包家用实惠装卫生纸心心相印餐巾纸面巾纸抽</p>
+                        <div><span><span>￥</span>9.9</span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="mask"></div>
+                        <img src="./img/like.jpg_.webp" alt="">
+                        <p>心相印纸巾抽纸整箱大包家用实惠装卫生纸心心相印餐巾纸面巾纸抽</p>
+                        <div><span><span>￥</span>9.9</span></div>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="mask"></div>
+                        <img src="./img/like.jpg_.webp" alt="">
+                        <p>心相印纸巾抽纸整箱大包家用实惠装卫生纸心心相印餐巾纸面巾纸抽</p>
+                        <div><span><span>￥</span>9.9</span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="mask"></div>
+                        <img src="./img/like.jpg_.webp" alt="">
+                        <p>心相印纸巾抽纸整箱大包家用实惠装卫生纸心心相印餐巾纸面巾纸抽</p>
+                        <div><span><span>￥</span>9.9</span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="mask"></div>
+                        <img src="./img/like.jpg_.webp" alt="">
+                        <p>心相印纸巾抽纸整箱大包家用实惠装卫生纸心心相印餐巾纸面巾纸抽</p>
+                        <div><span><span>￥</span>9.9</span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="mask"></div>
+                        <img src="./img/like.jpg_.webp" alt="">
+                        <p>心相印纸巾抽纸整箱大包家用实惠装卫生纸心心相印餐巾纸面巾纸抽</p>
+                        <div><span><span>￥</span>9.9</span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="mask"></div>
+                        <img src="./img/like.jpg_.webp" alt="">
+                        <p>心相印纸巾抽纸整箱大包家用实惠装卫生纸心心相印餐巾纸面巾纸抽</p>
+                        <div><span><span>￥</span>9.9</span></div>
+                    </a>
+                </li>
+            </ul>
+
+
+
+
+
+
+        </div>
+        <div id="end">
+            <div class="tip5">
+                <div></div>
+                <p>END</p>
+                <div></div>
+            </div>
+            <div class="end_list">
+                <div>
+                    <div>
+                        <span><i class="iconfont end_ico">&#xe602;</i></span>
+                        <span>消费者保障</span>
+                    </div>
+                    <ul>
+                        <li>保障范围</li>
+                        <li>退货退款流程</li>
+                        <li>服务中心</li>
+                        <li>更多特色服务</li>
+                    </ul>
+                </div>
+                <div>
+                    <div>
+                        <span><i class="iconfont end_ico">&#xe660;</i></span>
+                        <span>新手上路</span>
+                    </div>
+                    <ul>
+                        <li>新手专区</li>
+                        <li>消费警示</li>
+                        <li>交易安全</li>
+                        <li>24小时在线帮助</li>
+                        <li>免费开店</li>
+                    </ul>
+                </div>
+                <div>
+                    <div>
+                        <span><i class="iconfont end_ico">&#xe604;</i></span>
+                        <span>付款方式</span>
+                    </div>
+                    <ul>
+                        <li>快捷支付</li>
+                        <li>信用卡</li>
+                        <li>余额宝</li>
+                        <li>蚂蚁花呗</li>
+                        <li>货到付款</li>
+                    </ul>
+                </div>
+                <div>
+                    <div>
+                        <span><i class="iconfont end_ico">&#xe614;</i></span>
+                        <span>淘宝特色</span>
+                    </div>
+                    <ul>
+                        <li>手机淘宝</li>
+                        <li>旺旺/旺信</li>
+                        <li>大众评审</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div id="pendant">
+            <span><i class="iconfont wang_ico">&#xe601;</i></span>
+            <a href="#">品质好货</a>
+            <a href="#">品质<br>好货</a>
+            <a href="#">顶部</a>
+            <a href="#">反馈</a>
+            <a href="#">暴恐<br>举报</a>
+        </div>
+    </main>
+    <footer>
+        <div class="center">
+            <div class="fh">
+                <p>
+                    <a href="#">阿里巴巴集团</a>
+                    <span>|</span>
+                    <a href="#">阿里巴巴集团</a>
+                    <span>|</span>
+                    <a href="#">阿里巴巴集团</a>
+                    <span>|</span>
+                    <a href="#">阿里巴巴集团</a>
+                    <span>|</span>
+                    <a href="#">阿里巴巴集团</a>
+                    <span>|</span>
+                    <a href="#">阿里巴巴集团</a>
+                    <span>|</span>
+                    <a href="#">阿里巴巴集团</a>
+                    <span>|</span>
+                    <a href="#">阿里巴巴集团</a>
+                    <span>|</span>
+
+                    <a href="#">阿里巴巴集团</a>
+                    <span>|</span>
+                    <a href="#">阿里巴巴集团</a>
+                    <span>|</span>
+                    <a href="#">阿里巴巴集团</a>
+                    <span>|</span>
+                    <a href="#">阿里巴巴集团</a>
+                    <span>|</span>
+                    <a href="#">阿里巴巴集团</a>
+                    <span>|</span>
+                    <a href="#">阿里巴巴集团</a>
+                    <span>|</span>
+                    <a href="#">阿里巴巴集团</a>
+                    <span>|</span>
+                    <a href="#">阿里巴巴集团</a>
+                    <span>|</span>
+                    <a href="#">阿里巴巴集团</a>
+                    <span>|</span>
+                </p>
+            </div>
+            <div class="fb">
+                <ul>
+                    <li><a href="#">关于淘宝</a></li>
+                    <li><a href="#">关于淘宝</a></li>
+                    <li><a href="#">关于淘宝</a></li>
+                    <li><a href="#">关于淘宝</a></li>
+                    <li><a href="#">关于淘宝</a></li>
+                    <li><a href="#">关于淘宝</a></li>
+                    <li><a href="#">关于淘宝</a></li>
+                    <li><a href="#">关于淘宝</a></li>
+                    <li><a href="#">关于淘宝</a></li>
+                    <li><a href="#">关于淘宝</a></li>
+                    <li><a href="#">关于淘宝</a></li>
+                    <li><a href="#">关于淘宝</a></li>
+                    <li>|</li>
+                    <li>&copy 2003-现在 Taobao.com 版权所有</li>
+                </ul>
+                <ul>
+                    <li><a href="#">增值电信业务经营许可证：浙B2-20080224</a></li>
+                    <li>|</li>
+                    <li><a href="#">增值电信业务经营许可证：浙B2-20080224</a></li>
+                    <li>|</li>
+                    <li><a href="#">增值电信业务经营许可证：浙B2-20080224</a></li>
+                    <li>|</li>
+                    <li><a href="#">增值电信业务经营许可证：浙B2-20080224</a></li>
+                    <li>|</li>
+                </ul>
+                <ul>
+                    <li>互联网药品信息服务资格证书（浙）-经营性-2018-0010</li>
+                    <li>|</li>
+                    <li>互联网药品信息服务资格证书（浙）-经营性-2018-0010</li>
+                    <li>|</li>
+                    <li>互联网药品信息服务资格证书（浙）-经营性-2018-0010</li>
+                    <li>|</li>
+                </ul>
+                <ul>
+                    <li class="st">
+                        <span></span>
+                        <span>浙公网安备 33010002000078号</span>
+                    </li>
+                    <li>|</li>
+                    <li class="st">浙B2-20080224-1</li>
+                    <li>|</li>
+                    <li>广播电视节目制作经营许可证（浙）字第01012号</li>
+                    <li>|</li>
+                    <li>市场名称登记证：工商网市字3301004120号</li>
+                    <li>|</li>
+                    <li>医疗器械网络交易服务第三方平台备案：（浙）网械平台备字[2018]第00004号</li>
+                    <li>|</li>
+                </ul>
+            </div>
+            <div class="ff">
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
