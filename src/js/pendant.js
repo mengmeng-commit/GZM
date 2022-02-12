@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded',function(){
     }
     if(top<687){
         pendant.style.position="absolute";
-        pendant.style.left=1190+"px";
+        pendant.style.left=1200+"px";
         pendant.style.top=531+"px";
     }
     })
